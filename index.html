@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загадки истории</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header class="app-header"></header>
+        <div id="teamsPanel" class="teams-panel"></div>
+        <div id="board"></div>
+    </div>
+
+    <!-- ЗАСТАВКА -->
+    <div id="splash" class="splash">
+        <img src="images/star-burst.png" class="splash-star splash-star--burst" alt="">
+        <img src="images/star-six.png"   class="splash-star splash-star--six"   alt="">
+
+        <div class="splash-inner">
+            <h1 class="splash-title">Загадки истории</h1>
+            <p class="splash-sub">с Фридой Абрамовной</p>
+        </div>
+    </div>
+
+    <!-- ЭКРАН ВЫБОРА КОМАНД — скрыт, игра стартует сразу с 2 командами -->
+    <div id="setup" class="setup-overlay hidden"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
